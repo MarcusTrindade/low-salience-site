@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Low Salience — Focus for WhatsApp Web</title>
+    <meta
+      name="description"
+      content="Browser extension that hides Status, Channels, Communities, Archived chats and unread badges in WhatsApp Web. No data collected."
+    />
+    <link rel="icon" href="icon-128.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="brand">
+        <img src="icon-128.png" alt="" />
+        <a href="./">Low Salience</a>
+      </header>
+
+      <h1>Keep WhatsApp Web open. Leave the distractions out.</h1>
+      <p class="lead">
+        A browser extension for people who work in WhatsApp Web all day. It hides the parts built to
+        grab your attention, so you deal with the conversations you choose, when you choose.
+      </p>
+
+      <!-- [YOU] Replace with the store links once published. -->
+      <p><strong>Install:</strong> Chrome Web Store · Firefox Add-ons · Microsoft Edge Add-ons</p>
+
+      <h2>What it hides</h2>
+      <ul class="features">
+        <li><strong>Status</strong>: the Status button and its update dot</li>
+        <li><strong>Channels</strong>: the Channels button</li>
+        <li><strong>Communities</strong>: the Communities button</li>
+        <li><strong>Archived</strong>: the Archived row and its counter</li>
+        <li>
+          <strong>Unread badges</strong>: the green counters on chats, on the side bar and on label
+          filters
+        </li>
+        <li><strong>Tab counter</strong>: the “(3)” in the browser tab title</li>
+      </ul>
+
+      <h2>Private and fast by design</h2>
+      <p>
+        Low Salience collects no data, makes no network requests and never reads your messages,
+        contacts or media. It hides elements with a stylesheet the browser applies before WhatsApp
+        draws the page, and its small script only looks at the side bar and the tab title, never at
+        your chat list. Read the <a href="privacy.html">privacy policy</a>.
+      </p>
+
+      <h2 id="help">Help</h2>
+
+      <h3>How do I pause it?</h3>
+      <p>
+        Click the Low Salience icon in the toolbar and turn off the switch at the top, or press
+        <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd>. Everything comes back instantly; press again
+        to hide it all.
+      </p>
+
+      <h3>Can I hide only some things?</h3>
+      <p>Yes. Each item in the popup has its own switch. Changes apply immediately.</p>
+
+      <h3>Something is showing again</h3>
+      <p>
+        WhatsApp changes its interface from time to time, which can stop an item from being hidden
+        until we ship an update. Reload WhatsApp Web first; if it is still visible, tell us which
+        item and your browser (contact below) and we will fix it.
+      </p>
+
+      <h3>The keyboard shortcut does not work</h3>
+      <p>
+        Another extension may use the same keys. Change it at
+        <code>chrome://extensions/shortcuts</code> (Chrome, Edge, Brave) or in Firefox under Add-ons
+        → ⚙ → Manage Extension Shortcuts.
+      </p>
+
+      <h3>Does it work with WhatsApp Business?</h3>
+      <p>Yes, on WhatsApp Web (web.whatsapp.com) for both regular and Business accounts.</p>
+
+      <h3>Does it change my account or my phone?</h3>
+      <p>
+        No. It only hides parts of the screen in your browser. Your chats, archive, status and
+        notifications on your phone are untouched. Uninstall it and WhatsApp Web looks exactly as
+        before.
+      </p>
+
+      <h2 id="contact">Contact</h2>
+      <p>
+        Questions, bugs or ideas: <a href="mailto:marcao9a22@gmail.com">marcao9a22@gmail.com</a>
+      </p>
+
+      <footer>
+        <p>
+          Low Salience is an independent project. It is not affiliated with, endorsed by or
+          sponsored by WhatsApp or Meta Platforms, Inc. WhatsApp is a trademark of WhatsApp LLC.
+        </p>
+        <p><a href="privacy.html">Privacy policy</a></p>
+      </footer>
+    </main>
+  </body>
+</html>
